@@ -2,33 +2,27 @@
   <div>
     <header>
       <div class="left-section">
-        <img alt="Logo" src="../assets/Logo.svg">
-        <h1>VietVax</h1>
+        <img alt="Logo" src="../assets/resize-logo.jpg">
+        <h1>YumYumConvo</h1>
       </div>
       <div id="text">
-          <router-link to="/" class="btn">Trang chủ</router-link>
-          <router-link to="/profile" class="btn main">Hồ sơ của bạn</router-link>
-          <router-link to="/rec" class="btn">Gợi ý tiêm chủng cá nhân</router-link>
-          <router-link to="/blog" class="btn">Blog</router-link>
-        <router-link to="/blog"><img src="../assets/user profile.svg" alt="Avatar"></router-link>
+          <router-link to="/" class="btn">Homepage</router-link>
+          <router-link to="/profile" class="btn main">Your profile</router-link>
+          <router-link to="/blog" class="btn">Explore restaurants</router-link>
+        <router-link to="/login" class="blue-btn">Login</router-link>
       </div>
     </header>
     <body>
       <div class="main-rec">
         <div class="left-profile">
           <img class="img2" src="../assets/user profile.svg" alt="User avatar">
-          <p class="name"><strong>Nguyễn Hiếu Ngân</strong></p>
+          <p class="name"><strong>Jane Doe</strong></p>
           <div class="basic-info">
-            <p><strong>Ngày sinh:</strong> 01/08/2001</p>
-            <p><strong>Giới tính:</strong> Nữ</p>
-            <p><strong>Địa chỉ:</strong> 10 Thành Thái, Quận 10, TP.HCM</p>
-            <p><strong>Email:</strong> ngannguyen@gmail.com</p>
-            <p><strong>SĐT:</strong> 0374651776</p>
+            <p><strong>Joined on:</strong> 01/01/2020</p>
+            <p><strong>Location</strong> San Francisco, CA</p>
+            <p><strong>Food preferences:</strong> Vegetarian, Mediterranean</p>
+            <p><strong>Email:</strong> janedoe@gmail.com</p>
           </div>
-        </div>
-        <div class="vaccine-info">
-          <img class="img5" src="../assets/Table record.svg" alt="table.record">
-          <!-- <img class="img3" src="../assets/Rectangle 22.svg" alt="background"><img class="img4" src="../assets/Rectangle 21.svg" alt="background"> -->
         </div>
       </div>
       <Footer/>
@@ -37,7 +31,6 @@
 </template>
 
 <script>
-// import Table from './Table.vue'
 import Footer  from './Footer.vue';
 
 export default {

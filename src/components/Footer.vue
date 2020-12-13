@@ -3,18 +3,18 @@
     <footer>
       <div class="main">
         <div class="logo-left">
-          <img alt="Logo" src="../assets/Logo.svg">
+          <img alt="Logo" src="../assets/resize-logo.jpg">
           <div class="section-left">
-            <h3>VietVax</h3>
-            <p>Ứng dụng quản lý hồ sơ tiêm phòng Việt Nam</p>
-            <p>©2020 VietVax</p>
+            <h3>YumYumConvo</h3>
+            <p>Find a companion for your next dining experience</p>
+            <p>©2020 YumYumConvo</p>
           </div>
         </div>
         <div class="section-right">
-          <div class="contact">Liên hệ & Hỗ trợ</div>
+          <div class="contact">Contact & Support</div>
           <div class="info">
-            <p>Email: hotro@vietvax.com</p>
-            <p>Hotline: 1900 1696</p>
+            <p>Email: hello@yumyumconvo.com</p>
+            <p>Hotline: (555) 555-5555</p>
           </div>
         </div>
       </div>

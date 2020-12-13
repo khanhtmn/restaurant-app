@@ -2,44 +2,43 @@
   <div>
     <header>
       <div class="left-section">
-        <img alt="Logo" src="../assets/Logo.svg">
-        <h1>VietVax</h1>
+        <img alt="Logo" src="../assets/resize-logo.jpg">
+        <h1>YumYumConvo</h1>
       </div>
       <div id="text">
-          <router-link to="/" class="btn">Trang chủ</router-link>
-          <router-link to="/profile" class="btn">Hồ sơ của bạn</router-link>
-          <router-link to="/rec" class="btn">Gợi ý tiêm chủng cá nhân</router-link>
-          <router-link to="/blog" class="btn main">Blog</router-link>
-          <router-link to="/login"><img src="../assets/user profile.svg" alt="Avatar"></router-link>
+          <router-link to="/" class="btn">Homepage</router-link>
+          <router-link to="/profile" class="btn">Your profile</router-link>
+          <router-link to="/blog" class="btn main">Explore restaurants</router-link>
+        <router-link to="/login" class="blue-btn">Login</router-link>
       </div>
     </header>
     <body>
       <div class="photo">
         <div class="blog-photo">
-          <img src="../assets/Rectangle 40.svg" alt="image">
-          <p style="margin: 20px 10px 0px 10px;">Xử lý phản ứng phụ sau khi tiêm vaccine cho trẻ</p>
+          <img src="../assets/pexels-igor-starkov.svg" alt="image">
+          <p style="margin: 20px 10px 0px 10px;">Tranquil Restaurant at Serene Street</p>
         </div>
         <div class="blog-photo">
-          <img src="../assets/Rectangle 41.svg" alt="image">
-          <p style="margin: 20px 10px 0px 10px;">Cần kiểm tra vaccine như thế nào trước khi tiêm?</p>
+          <img src="../assets/pexels-chan-walrus.svg" alt="image">
+          <p style="margin: 20px 10px 0px 10px;">Home Meal Restaurant at 8th Street</p>
         </div>
         <div class="blog-photo">
-          <img src="../assets/Rectangle 42.svg" alt="image">
-          <p style="margin: 20px 10px 0px 10px;">Vaccine HPV có còn tác dụng nếu bạn nữ đã quan hệ tình dục?</p>
+          <img src="../assets/pexels-lisa-fotios.svg" alt="image">
+          <p style="margin: 20px 10px 0px 10px;">Pasta Paradise at Italian Town</p>
         </div>
       </div>
       <div class="photo">
         <div class="blog-photo">
-          <img src="../assets/Rectangle 43.svg" alt="image">
-          <p style="color: white">Xử lý phản ứng phụ sau khi tiêm vaccine cho trẻ</p>
+          <img src="../assets/pexels-elevate.png" alt="image">
+          <p style="color: white">Mushroom Party at King Street</p>
         </div>
         <div class="blog-photo">
-          <img src="../assets/Rectangle 44.svg" alt="image">
-          <p style="color: white">Cần kiểm tra vaccine như thế nào trước khi tiêm?</p>
+          <img src="../assets/pexels-quang-nguyen-vinh.png" alt="image">
+          <p style="color: white">Brunch at co-working cafe</p>
         </div>
         <div class="blog-photo">
-          <img src="../assets/Rectangle 45.svg" alt="image">
-          <p style="color: white">Vaccine HPV có còn tác dụng nếu bạn nữ đã quan hệ tình dục?</p>
+          <img src="../assets/pexels-christel-jensen.svg" alt="image">
+          <p style="color: white">Japanese fusion at Turk Street</p>
         </div>
       </div>
       <Footer/>

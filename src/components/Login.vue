@@ -2,22 +2,19 @@
   <div>
     <header>
       <div class="left-section">
-        <img alt="Logo" src="../assets/Logo.svg">
-        <h1>VietVax</h1>
+        <img alt="Logo" src="../assets/resize-logo.jpg">
+        <h1>YumYumConvo</h1>
       </div>
     </header>
     <body>
-      <div class="btn">
-        <p class="purple">Bạn là</p>
-      </div>
         <div class="inp">
           <div class="btn">
-              <p class="purple">Tên đăng nhập</p>
+              <p class="purple">Username</p>
           </div>
         <input type="text" style="border: black">
         </div>
       <div class="btn">
-        <p class="purple">Mật khẩu</p>
+        <p class="purple">Password</p>
       </div>
     </body>
   </div>
